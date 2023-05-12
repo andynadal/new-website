@@ -1,0 +1,17 @@
+.grid {
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.card {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 0.9rem;
+    background-color: var(--bg-secondary-color);
+    border: 1px solid var(--divider-color);
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+}

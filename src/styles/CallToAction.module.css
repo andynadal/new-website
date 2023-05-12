@@ -1,0 +1,7 @@
+.call_to_action {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    background-color: var(--call-to-action-color);
+}
