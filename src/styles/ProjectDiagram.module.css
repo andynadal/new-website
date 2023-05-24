@@ -1,7 +1,8 @@
 .container {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -11,7 +12,7 @@
 }
 
 .box {
-    width: 18rem;
+    width: 16rem;
     background-color: var(--bg-secondary-color);
     border: 1px solid var(--divider-color);
     border-radius: var(--border-radius);

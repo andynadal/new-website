@@ -1,4 +1,5 @@
 import styles from "@/styles/CallToAction.module.css";
+import shared from "@/styles/Shared.module.css";
 
 interface CallToActionProps {
     title: string;
@@ -6,7 +7,10 @@ interface CallToActionProps {
 
 export default function CallToAction(props: CallToActionProps) {
     return (
-        <a href="https://google.com" className={styles.call_to_action}>
+        <a
+            href="https://google.com"
+            className={`${styles.call_to_action} ${shared.hoverable}`}
+        >
             {props.title}
         </a>
     );

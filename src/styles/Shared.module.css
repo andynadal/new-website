@@ -1,0 +1,34 @@
+.hoverable {
+    transition: transform 0.3s;
+}
+
+.hoverable:hover {
+    transform: scale(1.1);
+}
+
+.page_content {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 4rem auto;
+    display: flex;
+
+    height: 100vh;
+    gap: 3rem;
+    align-items: center;
+}
+
+@media (max-width: 1020px) {
+    .page_content {
+        width: 100vw;
+        max-width: none;
+    }
+}
+
+@media (min-width: 1020px) {
+    .page_content {
+        max-width: 100%;
+        width: 100%;
+        max-width: 1020px;
+    }
+}

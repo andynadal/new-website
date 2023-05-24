@@ -2,8 +2,8 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
     min-width: var(--min-width);
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
     background-color: var(--bg-secondary-color);

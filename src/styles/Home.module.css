@@ -1,13 +1,4 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    gap: 3rem;
-    padding: 6rem;
-    min-height: 100vh;
-    width: var(--max-width);
-
     font-family: var(--fonts);
 }
 
@@ -24,9 +15,6 @@
 
 .title {
     margin: 45px;
-}
-
-.contact {
 }
 
 .email {

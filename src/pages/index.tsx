@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
+import shared from "@/styles/Shared.module.css";
 import Footer from "@/components/Footer";
 import ProjectDiagram from "@/components/ProjectDiagram";
 import Technologies from "@/components/Technologies";
@@ -53,27 +54,29 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <div className={styles.neuron_peak}>
-                    <h1>Hey, I&apos;m Andy</h1>
-                    <p>
-                        I make apps that help people achieve their highest
-                        potential
-                    </p>
-                </div>
-                <ProjectDiagram />
-                <CallToAction title="Contact me" />
-                <h2>Experience with</h2>
-                <Technologies technologies={technologies} />
-                <h2>Experience coding in</h2>
-                <Technologies technologies={languages} />
-                <div className={styles.contact}>
-                    <p>Get in touch at:</p>
-                    <a
-                        href="mailto:andy@andynadal.com"
-                        className={styles.email}
-                    >
-                        andy@andynadal.com
-                    </a>
+                <div className={shared.page_content}>
+                    <div className={styles.neuron_peak}>
+                        <h1>Hey, I&apos;m Andy</h1>
+                        <p>
+                            I make apps that help people achieve their highest
+                            potential
+                        </p>
+                    </div>
+                    <ProjectDiagram />
+                    <CallToAction title="Contact me" />
+                    <h2>Experience with</h2>
+                    <Technologies technologies={technologies} />
+                    <h2>Experience coding in</h2>
+                    <Technologies technologies={languages} />
+                    <div className={styles.contact}>
+                        <p>Get in touch at:</p>
+                        <a
+                            href="mailto:andy@andynadal.com"
+                            className={styles.email}
+                        >
+                            andy@andynadal.com
+                        </a>
+                    </div>
                 </div>
                 <Footer />
             </main>
