@@ -1,0 +1,34 @@
+.item_header {
+    display: flex;
+    gap: 0.5rem;
+    justify-items: center;
+}
+
+.place_row {
+    display: flex;
+    gap: 0.5rem;
+    justify-items: center;
+}
+
+.item_header p {
+    margin: 2px 0 0 0;
+}
+
+.description {
+    color: var(--text-color-2);
+}
+
+.place {
+    color: var(--text-color-2);
+}
+
+.url {
+    color: var(--text-color-2);
+}
+
+.resume_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+}

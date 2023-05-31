@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    margin: 0 1em;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.divider {
+    color: #333;
+}

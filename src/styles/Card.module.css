@@ -1,5 +1,5 @@
 .card {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 500;
     padding: 0.9rem;
     background-color: var(--bg-secondary-color);
@@ -14,14 +14,14 @@
         background-color: var(--bg-secondary-color);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.15);
         background-color: var(--call-to-action-color);
     }
 }
 
 @keyframes scaleAnimationOff {
     from {
-        transform: scale(1.2);
+        transform: scale(1.15);
         background-color: var(--call-to-action-color);
     }
     to {

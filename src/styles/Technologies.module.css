@@ -5,3 +5,16 @@
     justify-content: center;
     gap: 1.5rem;
 }
+
+.headline {
+    font-size: 1.6rem;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+}
