@@ -8,7 +8,7 @@ interface CallToActionProps {
 export default function CallToAction(props: CallToActionProps) {
     return (
         <a
-            href="https://google.com"
+            href="mailto:andy@andynadal.com"
             className={`${styles.call_to_action} ${shared.hoverable}`}
         >
             {props.title}

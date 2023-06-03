@@ -17,11 +17,7 @@ export default function Header() {
             </Link>
             <span className={styles.divider}>|</span>
             <Link href="/apps">
-                <p className={styles.link}>My Apps</p>
-            </Link>
-            <span className={styles.divider}>|</span>
-            <Link href="/contact">
-                <p className={styles.link}>Reach Out</p>
+                <p className={styles.link}>Apps</p>
             </Link>
         </header>
     );

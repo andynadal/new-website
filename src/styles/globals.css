@@ -3,6 +3,7 @@
 
 :root {
     --max-width: 75rem;
+    --max-item-width: 42rem;
     --min-width: 500px;
 
     --fonts: "Arimo", sans-serif;

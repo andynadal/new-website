@@ -5,7 +5,7 @@ export default function Socials() {
     return (
         <div className={styles.links}>
             <a
-                href="https://twitter.com/andynadal"
+                href="https://twitter.com/andynadal_"
                 className={styles.link}
                 target="_blank"
                 rel="noopener noreferrer"
