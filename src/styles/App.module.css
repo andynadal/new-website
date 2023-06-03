@@ -1,0 +1,42 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+    max-width: var(--max-item-width);
+    background-color: var(--bg-secondary-color);
+    border-radius: var(--border-radius);
+    padding: 2.1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+
+.mid {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+
+.app p {
+    margin-top: 0.5rem;
+}
+
+.app_icon {
+    width: 130px;
+    height: 130px;
+}
+
+.app_icon img {
+    border-radius: 20px;
+}

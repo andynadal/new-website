@@ -1,35 +1,57 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    gap: 3rem;
-    padding: 6rem;
-    min-height: 100vh;
-    width: var(--max-width);
-
     font-family: var(--fonts);
 }
 
 .neuron_peak h1 {
     font-family: "Archivo", sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+}
+
+.neuron_peak:hover {
+    color: -var(--text-color-2);
+}
+
+.neuron_peak {
+    transition: transform 0.3s;
+}
+
+.neuron_peak:hover {
+    transform: scale(1.1);
 }
 
 .neuron_peak p {
     font-family: "Archivo", sans-serif;
     letter-spacing: 0.18rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .title {
     margin: 45px;
 }
 
-.contact {
-}
-
 .email {
     font-family: "Archivo", sans-serif;
     font-size: 1.5rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: var(--max-item-width);
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+}
+
+.profile img {
+    border-radius: 50%;
 }
