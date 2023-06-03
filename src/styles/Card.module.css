@@ -1,0 +1,49 @@
+.card {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.9rem;
+    background-color: var(--bg-secondary-color);
+    border: 1px solid var(--divider-color);
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+}
+
+@keyframes scaleAnimationOn {
+    from {
+        transform: scale(1);
+        background-color: var(--bg-secondary-color);
+    }
+    to {
+        transform: scale(1.15);
+        background-color: var(--call-to-action-color);
+    }
+}
+
+@keyframes scaleAnimationOff {
+    from {
+        transform: scale(1.15);
+        background-color: var(--call-to-action-color);
+    }
+    to {
+        transform: scale(1);
+        background-color: var(--bg-secondary-color);
+    }
+}
+
+.highlighted {
+    transform: scale(1.2);
+    animation-name: scaleAnimationOn;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+}
+
+.not_highlighted {
+    transform: scale(1);
+    animation-name: scaleAnimationOff;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+}
+
+.initial_state {
+    animation-duration: 0s;
+}

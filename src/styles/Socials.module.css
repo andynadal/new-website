@@ -1,0 +1,19 @@
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.icon {
+    color: var(--text-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.link {
+    font-size: 1.6rem;
+    margin: 0 1em;
+}
