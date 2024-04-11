@@ -9,20 +9,20 @@ import CallToAction from "@/components/CallToAction";
 export default function Resume() {
     const experiences = [
         {
-            title: "Senior iOS Developer",
+            title: "Head of Technology",
             place: "RUUT",
-            duration: "March 2022 - present",
+            duration: "March 2024 - present",
             description:
-                "Lead the iOS team, we built the RUUT app from scratch. We've implemented an MVVM architecture using UIKit; work with an incredible backend architecture, consisting of a GraphQL database, Cloud Fare Workers, Auth0, Firebase, Knock, and other technologies; I've learn about leadership, problem solving, product, scrum, architecture, scalability and cybersecurity.",
+                "Continued to contribute to growing RUUT, while leading the development team and helping them achieve their goals, learn new abilities and fulfill their potential. We've implemented new features and improved the overall scalability, security and performance of RUUT",
             url: "https://ruut.mx",
         },
         {
-            title: "Founder",
-            place: "Neuron Peak",
-            duration: "April 2023 - present",
+            title: "Senior iOS Developer",
+            place: "RUUT",
+            duration: "March 2022 - March 2024",
             description:
-                "I founded Neuron Peak, so help people focus more on what they love, and less on managing their time, information and tasks. Neuron Peak will offer a power-user task manager, note-taking, and a time tracking app.",
-            url: "https://neuronpeak.com",
+                "Lead the iOS team, we built the RUUT app from scratch up to acquisition. We've implemented an MVVM architecture using UIKit; work with an incredible backend architecture, consisting of a GraphQL database, Cloud Fare Workers, Auth0, Firebase, Knock, and other technologies; I've learn about leadership, problem solving, product, scrum, architecture, scalability and cybersecurity.",
+            url: "https://ruut.mx",
         },
         {
             title: "iOS Developer",
